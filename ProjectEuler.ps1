@@ -1,7 +1,8 @@
 ﻿<#
 Description:
-This code will collect 2 different multiples defined by 2 different variables
-limited by a 3rd variable. Once collected, they are displayed and then summed.
+This code will collect 2 different sets of multiples defined by 2 different variables
+$mutliple1 / $multiple2) limited by a 3rd variable ($max). Once collected, the results
+are displayed and then summed.
 
 The premise is that $multiple1 will be the lower of the 2 multiples being used.
 The code is structed to check the lower of the 2 multiples first and if the 
@@ -10,7 +11,7 @@ upper variable, then we exit the loop since the larger of the 2 multiples ($mult
 will already have surpassed the upper limit in a previous loop.
 
 This is a very 'brute force' attempt to solve the problem. A more elegant solution
-is likely using .NET function.
+is likely using .NET array function.
 
 Date: 04/04/2018
 Author: Arden Walde
